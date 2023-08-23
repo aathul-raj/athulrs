@@ -640,3 +640,15 @@ textarea:focus {
 .next p {
       text-align: right;
 }
+
+#work-section .preptify{
+      color: #38D6A1;
+}
+
+#email a:hover, #media a:hover, #personal a:hover, #work-section a:hover{
+      text-decoration: underline white;
+}
+
+#work-section .preptify:hover{
+      text-decoration: underline #38D6A1;
+}
