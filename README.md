@@ -1,4 +1,4 @@
-# Athul Raj Suresh's Personal Website
+# athulrs.com
 
 Welcome to the repository of my personal website, a showcase of my skills, experiences, projects, and more. Check it out live [here](https://athulrs.com)!
 
