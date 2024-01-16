@@ -133,7 +133,8 @@ nav #menu li a {
 }
 
 nav #menu li a:hover {
-      text-decoration: none;
+      text-decoration: underline;
+      text-decoration-color: white;
 }
 
 #toggle {
@@ -641,14 +642,96 @@ textarea:focus {
       text-align: right;
 }
 
-#work-section .preptify{
+#projects-section .preptify{
       color: #38D6A1;
 }
 
 #email a:hover, #media a:hover, #personal a:hover, #work-section a:hover{
-      text-decoration: underline white;
+      text-decoration: underline;
+      text-decoration-color: white;
 }
 
-#work-section .preptify:hover{
+#projects-section .preptify:hover{
       text-decoration: underline #38D6A1;
+}
+
+#projects-section .witty{
+      color: #D4CBB3;
+}
+
+#projects-section .witty:hover{
+      text-decoration: underline;
+      text-decoration-color: #D4CBB3;
+}
+
+#projects-section .chorus{
+      color: #BF9ACA;
+}
+
+#projects-section .chorus:hover{
+      text-decoration: underline;
+      text-decoration-color: #BF9ACA;
+}
+
+#projects-section .todo{
+      color: #087E8B;
+}
+
+#projects-section .todo:hover{
+      text-decoration: underline;
+      text-decoration-color: #087E8B;
+}
+
+#projects-section .clc{
+      color: #F07167;
+}
+
+#projects-section .clc:hover{
+      text-decoration: underline;
+      text-decoration-color: #F07167;
+}
+
+#projects-section .portfolio{
+      color: #06B4FF;
+}
+
+#projects-section .portfolio:hover{
+      text-decoration: underline;
+      text-decoration-color: #06B4FF;
+}
+
+#design-section .stride{
+      color: #20A39E;
+}
+
+#design-section .stride:hover{
+      text-decoration: underline;
+      text-decoration-color: #20A39E;
+}
+
+#design-section .archive{
+      color: #E7D0E6;
+}
+
+#design-section .archive:hover{
+      text-decoration: underline;
+      text-decoration-color: #E7D0E6;
+}
+
+#design-section .leap{
+      color: #EF5D60;
+}
+
+#design-section .leap:hover{
+      text-decoration: underline;
+      text-decoration-color: #EF5D60;
+}
+
+#design-section .bills{
+      color: #D4CBB3;
+}
+
+#design-section .bills:hover{
+      text-decoration: underline;
+      text-decoration-color: #D4CBB3;
 }

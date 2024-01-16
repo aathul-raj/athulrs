@@ -12,6 +12,7 @@
       <!-- stylesheet -->
       <link rel="stylesheet" href="style.css">
 
+      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
       <!-- bootstrap cdns -->
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -36,29 +37,33 @@
                         <a href="index.html">athul</a>
                   </span>
 
-                  <ul id="menu">
+                  <ul id="menu" class="main-menu">
                         <li><a href="#home">home<span>.</span></a></li>
                         <li><a href="#about-me">about me<span>.</span></a></li>
+                        <li><a href="#projects">projects<span>.</span></a></li>
                         <li><a href="#work">work<span>.</span></a></li>
+                        <li><a href="#design">designs<span>.</span></a></li>
                         <li><a href="#contact">contact<span>.</span></a></li>
                   </ul>
 
-                  <div id="toggle">
-                        <!-- <div class="span">menu</div> -->
-                  </div>
+                  <!-- <div id="toggle">
+                        <div class="span">menu</div>
+                  </div> -->
 
             </nav>
 
-            <div id="resize">
+            <!-- <div id="resize">
                   <div class="close-btn">close</div>
 
-                  <ul id="menu">
-                        <!-- <li><a href="#home">home<span>.</span></a></li>
+                  <ul id="menu" class="responsive-menu">
+                        <li><a href="#home">home<span>.</span></a></li>
                         <li><a href="#about-me">about me<span>.</span></a></li>
+                        <li><a href="#projects">projects<span>.</span></a></li>
                         <li><a href="#work">work<span>.</span></a></li>
-                        <li><a href="#contact">contact<span>.</span></a></li> -->
+                        <li><a href="#design">designs<span>.</span></a></li>
+                        <li><a href="#contact">contact<span>.</span></a></li>
                   </ul>
-            </div>
+            </div> -->
             <!--------------- navbar ends here --------------->
 
 
@@ -81,19 +86,40 @@
 
                         <div class="row">
                               <div class="col-lg-12">
-                                    <h3 class="wow fadeInUp">about me.</h3><br>
+                                    <h3 class="wow fadeInUp" data-wow-delay=".5s">about me.</h3><br>
 
-                                    <p class="wow fadeInUp">Hi! I'm Athul Suresh. Along with being the CEO and lead developer at Preptify, I'm currently an applied mathematics (comp sci emphasis) major at Texas A&M, with a comp sci minor. In my free time I code apps, develop and manage websites, read, and play the guitar.</p>
+                                    <p class="wow fadeInUp" data-wow-delay=".7s">Hi! I'm Athul Suresh. I'm currently an Applied Mathematics (Comp Sci Emphasis) major at Texas A&M, with a Comp Sci minor. In my free time I code cool stuff, develop and manage websites, rock climb, and play the guitar.</p>
 
-                                    <p class="wow fadeInUp">I am excited to continue my studies and pursue a career as a software developer, where I can use my skills and dedication to make a positive impact. I am eager to take on new challenges and continue learning in order to grow not just as an engineer, but as a person.</p>
+                                    <p class="wow fadeInUp" data-wow-delay=".9s">I am excited to continue my studies and pursue a career as a software developer, where I can use my skills and dedication to create impactful products with cool people.</p>
 
                               </div>
                         </div>
                   </div>
             </div>
 
-            <div class="whitespace" id="work"></div>
+            <div class="whitespace" id="projects"></div>
 
+            <!--------------- projects section starts here --------------->
+            <div class="container">
+                  <div class="hero-content">
+                        <br><br>
+
+                        <div class="row">
+                              <div class="col-lg-8">
+
+                                    <h3 class="wow fadeInUp" data-wow-delay=".5s">projects.</h3><br>
+                                    <p class="wow fadeInUp" data-wow-delay=".7s" id="projects-section">1. <a href="https://old.preptify.com" class="preptify" target="_blank">Preptify</a> - A SWE mock interview prep AI assistant. Create an account and try it out! Built with React, Node.JS, Firebase, OpenAI, & Deepgram for speech to text.</p>
+                                    <p class="wow fadeInUp" data-wow-delay=".9s" id="projects-section">2. <a href="https://witty-pi.vercel.app" class="witty" target="_blank">Witty</a> - A simple mental math trainer that gets progressively harder. Built with React.</p>
+                                    <p class="wow fadeInUp" data-wow-delay="1.1s" id="projects-section">3. <a href="https://music-recs-fe.vercel.app" class="chorus" target="_blank">Chorus</a> - A music rec site. Enter three albums or three artists and Chorus will recommend you three more!  Built with Node.JS, React, and OpenAI.</p>
+                                    <p class="wow fadeInUp" data-wow-delay="1.3s" id="projects-section">4. <a href="https://drag-and-drop-todo-navy.vercel.app" class="todo" target="_blank">Drag-and-Drop Todos</a> - The classic React project with a twist. I developed a drag and drop interface, enabling the user to visualize their tasks, color-code, and group them as they see fit. Built with React.</p>
+                                    <p class="wow fadeInUp" data-wow-delay="1.5s" id="projects-section">5. <a href="https://www.preptify.com" class="clc" target="_blank">Preptify CLC</a> - A cool landing page. Built with React.</p>
+                                    <p class="wow fadeInUp" data-wow-delay="1.7s" id="projects-section">6. <a href="https://www.athulrs.com" class="portfolio" target="_blank">AthulRS</a> - This site!</p>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+            
+            <div class="whitespace" id="work"></div>
             <!--------------- work section starts here --------------->
             <div class="container">
                   <div class="hero-content">
@@ -102,11 +128,31 @@
                         <div class="row">
                               <div class="col-lg-8">
 
-                                    <h3 class="wow fadeInUp" data-wow-delay="1s">work.</h3><br>
-                                    <p class="wow fadeInUp" data-wow-delay="1.2s" id="work-section">From my early days as founder and editor-in-chief of the student-led news site, Travis Tribune, to my current role as CEO and lead developer at <a href="https://www.preptify.com/" target="_blank" class="preptify">Preptify</a>, I've always been dedicated to creating and refining online platforms.
+                                    <h3 class="wow fadeInUp" data-wow-delay=".5s">work.</h3><br>
+                                    <p class="wow fadeInUp" data-wow-delay=".7s" id="work-section">Back in high school, I was the founder and editor-in-chief of the student-led news site, Travis Tribune. This experience helped me hone my skills in creating and managing online platforms.
 
-                                          My software internship at <a href="https://www.retailmenot.com/" target="_blank">RetailMeNot</a> enriched my technical proficiency, where I designed an internal API and devised a Python script for automation in error handling. I'm also the website maintainer for <a href="https://quantumcurious.org/" target="_blank">Quantum Curious</a>. <br/><br/>I've earned recognition for my talent, including winning the 2021 FBLA Website Design competition in Texas (finishing as an international semi-finalist) and placing 2nd in the 2022 FBLA Digital Video Production competition. Collectively, these experiences have fortified my expertise in website development, content management, and software engineering.</p>
+                                          My software internship at <a href="https://www.retailmenot.com/" target="_blank">RetailMeNot</a> significantly enhanced my technical capabilities, where I was responsible for developing an internal API and crafting a Python script to automate error handling processes. I'm also the website maintainer for the Quantum Computing site <a href="https://quantumcurious.org/" target="_blank">Quantum Curious</a>. <br/><br/>I've earned recognition for my talent, including winning the 2021 FBLA Website Design competition in Texas (finishing as an international semi-finalist) and placing 2nd in the 2022 FBLA Digital Video Production competition. Collectively, these experiences have fortified my expertise in website development, content management, and software engineering.</p>
 
+                              </div>
+                        </div>
+                  </div>
+            </div>
+
+            <div class="whitespace" id="design"></div>
+            <!--------------- design section starts here --------------->
+            <div class="container">
+                  <div class="hero-content">
+                        <br><br>
+
+                        <div class="row">
+                              <div class="col-lg-8">
+
+                                    <h3 class="wow fadeInUp" data-wow-delay=".5s">design.</h3><br>
+                                    <p class="wow fadeInUp" data-wow-delay=".7s" id="design-section">Through all my projects, I've ended up with a lot of Figma designs. Not all of them have come to fruition, so I made this section to showcase some designs that haven't made it to reality quite yet. Some I'm working on and some I've stopped working on.</p>
+                                    <p class="wow fadeInUp" data-wow-delay=".9s" id="design-section">1. <a href="https://www.figma.com/file/y4MXTn1ssoR1qmqvy3lWFk/Stride?type=design&node-id=0%3A1&mode=design&t=QfrgVzm3daoCkQqp-1" target="_blank" class="stride">Stride</a> - The design for a shoe aggregator marketplace.</p>
+                                    <p class="wow fadeInUp" data-wow-delay="1.1s" id="design-section">2. <a href="https://www.figma.com/file/WKIkshI3qIZRO41Unk10gF/Emily's-Site?type=design&node-id=0%3A1&mode=design&t=eCS0uAtXeFm9O2x2-1" target="_blank" class="archive">Emily's Archive</a> - A literature and history blog, designed for my girlfriend. Still working on this - I'm going to build my own CMS for this project.</p>
+                                    <p class="wow fadeInUp" data-wow-delay="1.3s" id="design-section">3. <a href="https://www.figma.com/file/PpTUMnETAiXrgM0bDsY8GU/Leap?type=design&node-id=0%3A1&mode=design&t=0Y51qNOEgJaztDkN-1" target="_blank" class="leap">Leap</a> - A daily challenge app. I finished building the whole thing with React Native but never published it to the App Store because I didn't want to pay for the Apple Developer's Program.</p>
+                                    <p class="wow fadeInUp" data-wow-delay="1.5s" id="design-section">4. <a href="https://www.figma.com/file/jNEIrCYEXS0Z8XsUzGgN9w/Bill-Splitting-App?type=design&node-id=0%3A1&mode=design&t=VWI67Br2lZlH4C4x-1" target="_blank" class="bills">Bill Splitting App</a> - The design for an app to help people split bills.</p>
                               </div>
                         </div>
                   </div>
@@ -172,8 +218,6 @@
 
       <!-- greensock cdn -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
-
-      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
       <script type="text/javascript">
 
       // navigation starts here
@@ -198,14 +242,14 @@
       // nav animation
 
       TweenMax.from("#brand", 1, {
-            delay: 0.4,
+            delay: 0.2,
             y: 10,
             opacity: 0,
             ease: Expo.easeInOut
       })
 
       TweenMax.staggerFrom("#menu li a", 1, {
-            delay: 0.4,
+            delay: 0.2,
             opacity: 0,
             ease: Expo.easeInOut
       }, 0.1);
@@ -214,16 +258,22 @@
 
       new WOW().init();
 
-      const navLinks = document.querySelectorAll('nav a');
+      const mainNavLinks = document.querySelectorAll('.main-menu a');
+      const responsiveNavLinks = document.querySelectorAll('.responsive-menu a');
 
-      for (const link of navLinks) {
-      link.addEventListener('click', (event) => {
-      event.preventDefault();
-      
-      const section = document.querySelector(link.getAttribute('href'));
-      section.scrollIntoView({ behavior: 'smooth' });
-      });
+      // Function to handle smooth scrolling
+      function smoothScroll(e) {
+            console.log("Link clicked:", e.target);
+            e.preventDefault();
+            const section = document.querySelector(e.target.getAttribute('href'));
+            if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
+            }
       }
+
+      // Attach event listeners to both main and responsive menus
+      mainNavLinks.forEach(link => link.addEventListener('click', smoothScroll));
+      responsiveNavLinks.forEach(link => link.addEventListener('click', smoothScroll));
 
       </script>
 </body>
